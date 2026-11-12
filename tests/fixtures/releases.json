@@ -1,9 +1,9 @@
 [
   {
-    "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000000",
-    "assets_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000000/assets",
-    "upload_url": "https://uploads.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000000/assets{?name,label}",
-    "html_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/tag/v14.03",
+    "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000000",
+    "assets_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000000/assets",
+    "upload_url": "https://uploads.github.com/repos/xrip/PlugY4Kolbot/releases/250000000/assets{?name,label}",
+    "html_url": "https://github.com/xrip/PlugY4Kolbot/releases/tag/v14.03",
     "id": 250000000,
     "author": {
       "login": "theBGuy",
@@ -37,11 +37,11 @@
     "updated_at": "2026-10-01T12:00:00Z",
     "published_at": "2026-10-01T12:00:00Z",
     "assets": [],
-    "tarball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/tarball/v14.03",
-    "zipball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/zipball/v14.03",
+    "tarball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/tarball/v14.03",
+    "zipball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/zipball/v14.03",
     "body": "v14.03 changes :\r\n- upstream tag, not semver",
     "reactions": {
-      "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000000/reactions",
+      "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000000/reactions",
       "total_count": 2,
       "+1": 2,
       "-1": 0,
@@ -55,10 +55,10 @@
     "mentions_count": 1
   },
   {
-    "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000007",
-    "assets_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000007/assets",
-    "upload_url": "https://uploads.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000007/assets{?name,label}",
-    "html_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/tag/v14.4.0",
+    "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000007",
+    "assets_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000007/assets",
+    "upload_url": "https://uploads.github.com/repos/xrip/PlugY4Kolbot/releases/250000007/assets{?name,label}",
+    "html_url": "https://github.com/xrip/PlugY4Kolbot/releases/tag/v14.4.0",
     "id": 250000007,
     "author": {
       "login": "theBGuy",
@@ -93,7 +93,7 @@
     "published_at": "2026-10-01T12:00:00Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/assets/250000001",
+        "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/assets/250000001",
         "id": 250000001,
         "node_id": "RA_kwDOAAAAAM4AAAA250000001",
         "name": "PlugY4Kolbot_v14.4.0.zip",
@@ -126,10 +126,10 @@
         "download_count": 3,
         "created_at": "2026-10-01T12:00:00Z",
         "updated_at": "2026-10-01T12:00:01Z",
-        "browser_download_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/download/v14.4.0/PlugY4Kolbot_v14.4.0.zip"
+        "browser_download_url": "https://github.com/xrip/PlugY4Kolbot/releases/download/v14.4.0/PlugY4Kolbot_v14.4.0.zip"
       },
       {
-        "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/assets/250000002",
+        "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/assets/250000002",
         "id": 250000002,
         "node_id": "RA_kwDOAAAAAM4AAAA250000002",
         "name": "PlugY4Kolbot_v14.4.0_D2FilePatcher.zip",
@@ -162,10 +162,10 @@
         "download_count": 3,
         "created_at": "2026-10-01T12:00:00Z",
         "updated_at": "2026-10-01T12:00:01Z",
-        "browser_download_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/download/v14.4.0/PlugY4Kolbot_v14.4.0_D2FilePatcher.zip"
+        "browser_download_url": "https://github.com/xrip/PlugY4Kolbot/releases/download/v14.4.0/PlugY4Kolbot_v14.4.0_D2FilePatcher.zip"
       },
       {
-        "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/assets/250000003",
+        "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/assets/250000003",
         "id": 250000003,
         "node_id": "RA_kwDOAAAAAM4AAAA250000003",
         "name": "PlugY4Kolbot_v14.4.0_Installer.exe",
@@ -198,10 +198,10 @@
         "download_count": 3,
         "created_at": "2026-10-01T12:00:00Z",
         "updated_at": "2026-10-01T12:00:01Z",
-        "browser_download_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/download/v14.4.0/PlugY4Kolbot_v14.4.0_Installer.exe"
+        "browser_download_url": "https://github.com/xrip/PlugY4Kolbot/releases/download/v14.4.0/PlugY4Kolbot_v14.4.0_Installer.exe"
       },
       {
-        "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/assets/250000004",
+        "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/assets/250000004",
         "id": 250000004,
         "node_id": "RA_kwDOAAAAAM4AAAA250000004",
         "name": "PlugY4Kolbot_v14.4.0_symbols.zip",
@@ -234,10 +234,10 @@
         "download_count": 3,
         "created_at": "2026-10-01T12:00:00Z",
         "updated_at": "2026-10-01T12:00:01Z",
-        "browser_download_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/download/v14.4.0/PlugY4Kolbot_v14.4.0_symbols.zip"
+        "browser_download_url": "https://github.com/xrip/PlugY4Kolbot/releases/download/v14.4.0/PlugY4Kolbot_v14.4.0_symbols.zip"
       },
       {
-        "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/assets/250000005",
+        "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/assets/250000005",
         "id": 250000005,
         "node_id": "RA_kwDOAAAAAM4AAAA250000005",
         "name": "SHA256SUMS.txt",
@@ -269,10 +269,10 @@
         "download_count": 3,
         "created_at": "2026-10-01T12:00:00Z",
         "updated_at": "2026-10-01T12:00:01Z",
-        "browser_download_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/download/v14.4.0/SHA256SUMS.txt"
+        "browser_download_url": "https://github.com/xrip/PlugY4Kolbot/releases/download/v14.4.0/SHA256SUMS.txt"
       },
       {
-        "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/assets/250000006",
+        "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/assets/250000006",
         "id": 250000006,
         "node_id": "RA_kwDOAAAAAM4AAAA250000006",
         "name": "notes.txt",
@@ -305,14 +305,14 @@
         "download_count": 3,
         "created_at": "2026-10-01T12:00:00Z",
         "updated_at": "2026-10-01T12:00:01Z",
-        "browser_download_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/download/v14.4.0/notes.txt"
+        "browser_download_url": "https://github.com/xrip/PlugY4Kolbot/releases/download/v14.4.0/notes.txt"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/tarball/v14.4.0",
-    "zipball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/zipball/v14.4.0",
+    "tarball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/tarball/v14.4.0",
+    "zipball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/zipball/v14.4.0",
     "body": "## Fixed\r\n\r\n- Big Stash keeps its items.\r\n",
     "reactions": {
-      "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000007/reactions",
+      "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000007/reactions",
       "total_count": 2,
       "+1": 2,
       "-1": 0,
@@ -326,10 +326,10 @@
     "mentions_count": 1
   },
   {
-    "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000009",
-    "assets_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000009/assets",
-    "upload_url": "https://uploads.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000009/assets{?name,label}",
-    "html_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/tag/v15.0.0",
+    "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000009",
+    "assets_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000009/assets",
+    "upload_url": "https://uploads.github.com/repos/xrip/PlugY4Kolbot/releases/250000009/assets{?name,label}",
+    "html_url": "https://github.com/xrip/PlugY4Kolbot/releases/tag/v15.0.0",
     "id": 250000009,
     "author": {
       "login": "theBGuy",
@@ -364,7 +364,7 @@
     "published_at": null,
     "assets": [
       {
-        "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/assets/250000008",
+        "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/assets/250000008",
         "id": 250000008,
         "node_id": "RA_kwDOAAAAAM4AAAA250000008",
         "name": "PlugY4Kolbot_v15.0.0.zip",
@@ -397,14 +397,14 @@
         "download_count": 3,
         "created_at": "2026-10-01T12:00:00Z",
         "updated_at": "2026-10-01T12:00:01Z",
-        "browser_download_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/download/v15.0.0/PlugY4Kolbot_v15.0.0.zip"
+        "browser_download_url": "https://github.com/xrip/PlugY4Kolbot/releases/download/v15.0.0/PlugY4Kolbot_v15.0.0.zip"
       }
     ],
-    "tarball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/tarball/v15.0.0",
-    "zipball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/zipball/v15.0.0",
+    "tarball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/tarball/v15.0.0",
+    "zipball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/zipball/v15.0.0",
     "body": "Release v15.0.0",
     "reactions": {
-      "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000009/reactions",
+      "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000009/reactions",
       "total_count": 2,
       "+1": 2,
       "-1": 0,
@@ -418,10 +418,10 @@
     "mentions_count": 1
   },
   {
-    "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000010",
-    "assets_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000010/assets",
-    "upload_url": "https://uploads.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000010/assets{?name,label}",
-    "html_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/tag/v14.5.0-rc.1",
+    "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000010",
+    "assets_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000010/assets",
+    "upload_url": "https://uploads.github.com/repos/xrip/PlugY4Kolbot/releases/250000010/assets{?name,label}",
+    "html_url": "https://github.com/xrip/PlugY4Kolbot/releases/tag/v14.5.0-rc.1",
     "id": 250000010,
     "author": {
       "login": "theBGuy",
@@ -455,11 +455,11 @@
     "updated_at": "2026-10-01T12:00:00Z",
     "published_at": "2026-10-01T12:00:00Z",
     "assets": [],
-    "tarball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/tarball/v14.5.0-rc.1",
-    "zipball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/zipball/v14.5.0-rc.1",
+    "tarball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/tarball/v14.5.0-rc.1",
+    "zipball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/zipball/v14.5.0-rc.1",
     "body": "Release v14.5.0-rc.1",
     "reactions": {
-      "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000010/reactions",
+      "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000010/reactions",
       "total_count": 2,
       "+1": 2,
       "-1": 0,
@@ -473,10 +473,10 @@
     "mentions_count": 1
   },
   {
-    "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000011",
-    "assets_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000011/assets",
-    "upload_url": "https://uploads.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000011/assets{?name,label}",
-    "html_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/tag/v14.6.0-beta.1",
+    "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000011",
+    "assets_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000011/assets",
+    "upload_url": "https://uploads.github.com/repos/xrip/PlugY4Kolbot/releases/250000011/assets{?name,label}",
+    "html_url": "https://github.com/xrip/PlugY4Kolbot/releases/tag/v14.6.0-beta.1",
     "id": 250000011,
     "author": {
       "login": "theBGuy",
@@ -510,11 +510,11 @@
     "updated_at": "2026-10-01T12:00:00Z",
     "published_at": "2026-10-01T12:00:00Z",
     "assets": [],
-    "tarball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/tarball/v14.6.0-beta.1",
-    "zipball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/zipball/v14.6.0-beta.1",
+    "tarball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/tarball/v14.6.0-beta.1",
+    "zipball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/zipball/v14.6.0-beta.1",
     "body": null,
     "reactions": {
-      "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000011/reactions",
+      "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000011/reactions",
       "total_count": 2,
       "+1": 2,
       "-1": 0,
@@ -528,10 +528,10 @@
     "mentions_count": 1
   },
   {
-    "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000012",
-    "assets_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000012/assets",
-    "upload_url": "https://uploads.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000012/assets{?name,label}",
-    "html_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/tag/12.00",
+    "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000012",
+    "assets_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000012/assets",
+    "upload_url": "https://uploads.github.com/repos/xrip/PlugY4Kolbot/releases/250000012/assets{?name,label}",
+    "html_url": "https://github.com/xrip/PlugY4Kolbot/releases/tag/12.00",
     "id": 250000012,
     "author": {
       "login": "theBGuy",
@@ -565,11 +565,11 @@
     "updated_at": "2026-10-01T12:00:00Z",
     "published_at": "2026-10-01T12:00:00Z",
     "assets": [],
-    "tarball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/tarball/12.00",
-    "zipball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/zipball/12.00",
+    "tarball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/tarball/12.00",
+    "zipball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/zipball/12.00",
     "body": "Release 12.00",
     "reactions": {
-      "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000012/reactions",
+      "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000012/reactions",
       "total_count": 2,
       "+1": 2,
       "-1": 0,
@@ -583,10 +583,10 @@
     "mentions_count": 1
   },
   {
-    "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000013",
-    "assets_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000013/assets",
-    "upload_url": "https://uploads.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000013/assets{?name,label}",
-    "html_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/tag/v14.04.0",
+    "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000013",
+    "assets_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000013/assets",
+    "upload_url": "https://uploads.github.com/repos/xrip/PlugY4Kolbot/releases/250000013/assets{?name,label}",
+    "html_url": "https://github.com/xrip/PlugY4Kolbot/releases/tag/v14.04.0",
     "id": 250000013,
     "author": {
       "login": "theBGuy",
@@ -620,11 +620,11 @@
     "updated_at": "2026-10-01T12:00:00Z",
     "published_at": "2026-10-01T12:00:00Z",
     "assets": [],
-    "tarball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/tarball/v14.04.0",
-    "zipball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/zipball/v14.04.0",
+    "tarball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/tarball/v14.04.0",
+    "zipball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/zipball/v14.04.0",
     "body": "Release v14.04.0",
     "reactions": {
-      "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000013/reactions",
+      "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000013/reactions",
       "total_count": 2,
       "+1": 2,
       "-1": 0,
@@ -638,10 +638,10 @@
     "mentions_count": 1
   },
   {
-    "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000014",
-    "assets_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000014/assets",
-    "upload_url": "https://uploads.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000014/assets{?name,label}",
-    "html_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/tag/v14.3.1",
+    "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000014",
+    "assets_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000014/assets",
+    "upload_url": "https://uploads.github.com/repos/xrip/PlugY4Kolbot/releases/250000014/assets{?name,label}",
+    "html_url": "https://github.com/xrip/PlugY4Kolbot/releases/tag/v14.3.1",
     "id": 250000014,
     "author": {
       "login": "theBGuy",
@@ -675,11 +675,11 @@
     "updated_at": "2026-10-01T12:00:00Z",
     "published_at": "2026-10-01T12:00:00Z",
     "assets": [],
-    "tarball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/tarball/v14.3.1",
-    "zipball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/zipball/v14.3.1",
+    "tarball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/tarball/v14.3.1",
+    "zipball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/zipball/v14.3.1",
     "body": "Release v14.3.1",
     "reactions": {
-      "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000014/reactions",
+      "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000014/reactions",
       "total_count": 2,
       "+1": 2,
       "-1": 0,
@@ -693,10 +693,10 @@
     "mentions_count": 1
   },
   {
-    "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000015",
-    "assets_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000015/assets",
-    "upload_url": "https://uploads.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000015/assets{?name,label}",
-    "html_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/tag/14.4.1",
+    "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000015",
+    "assets_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000015/assets",
+    "upload_url": "https://uploads.github.com/repos/xrip/PlugY4Kolbot/releases/250000015/assets{?name,label}",
+    "html_url": "https://github.com/xrip/PlugY4Kolbot/releases/tag/14.4.1",
     "id": 250000015,
     "author": {
       "login": "theBGuy",
@@ -730,11 +730,11 @@
     "updated_at": "2026-10-01T12:00:00Z",
     "published_at": "2026-10-01T12:00:00Z",
     "assets": [],
-    "tarball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/tarball/14.4.1",
-    "zipball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/zipball/14.4.1",
+    "tarball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/tarball/14.4.1",
+    "zipball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/zipball/14.4.1",
     "body": "Release 14.4.1",
     "reactions": {
-      "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000015/reactions",
+      "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000015/reactions",
       "total_count": 2,
       "+1": 2,
       "-1": 0,
@@ -748,10 +748,10 @@
     "mentions_count": 1
   },
   {
-    "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000016",
-    "assets_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000016/assets",
-    "upload_url": "https://uploads.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000016/assets{?name,label}",
-    "html_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/tag/v99.0.0",
+    "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000016",
+    "assets_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000016/assets",
+    "upload_url": "https://uploads.github.com/repos/xrip/PlugY4Kolbot/releases/250000016/assets{?name,label}",
+    "html_url": "https://github.com/xrip/PlugY4Kolbot/releases/tag/v99.0.0",
     "id": 250000016,
     "author": {
       "login": "theBGuy",
@@ -784,11 +784,11 @@
     "updated_at": "2026-10-01T12:00:00Z",
     "published_at": "2026-10-01T12:00:00Z",
     "assets": [],
-    "tarball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/tarball/v99.0.0",
-    "zipball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/zipball/v99.0.0",
+    "tarball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/tarball/v99.0.0",
+    "zipball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/zipball/v99.0.0",
     "body": "Release v99.0.0",
     "reactions": {
-      "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000016/reactions",
+      "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000016/reactions",
       "total_count": 2,
       "+1": 2,
       "-1": 0,
@@ -802,10 +802,10 @@
     "mentions_count": 1
   },
   {
-    "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000017",
-    "assets_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000017/assets",
-    "upload_url": "https://uploads.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000017/assets{?name,label}",
-    "html_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/tag/v98.0.0",
+    "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000017",
+    "assets_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000017/assets",
+    "upload_url": "https://uploads.github.com/repos/xrip/PlugY4Kolbot/releases/250000017/assets{?name,label}",
+    "html_url": "https://github.com/xrip/PlugY4Kolbot/releases/tag/v98.0.0",
     "id": 250000017,
     "author": {
       "login": "theBGuy",
@@ -838,11 +838,11 @@
     "updated_at": "2026-10-01T12:00:00Z",
     "published_at": "2026-10-01T12:00:00Z",
     "assets": [],
-    "tarball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/tarball/v98.0.0",
-    "zipball_url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/zipball/v98.0.0",
+    "tarball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/tarball/v98.0.0",
+    "zipball_url": "https://api.github.com/repos/xrip/PlugY4Kolbot/zipball/v98.0.0",
     "body": "Release v98.0.0",
     "reactions": {
-      "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/250000017/reactions",
+      "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/250000017/reactions",
       "total_count": 2,
       "+1": 2,
       "-1": 0,

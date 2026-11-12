@@ -12,7 +12,7 @@
 #include <windows.h>
 #include "PlugYVersion.h"
 
-#define PLUGY_UPDATE_REPO "theBGuy/PlugY4Kolbot"
+#define PLUGY_UPDATE_REPO "xrip/PlugY4Kolbot"
 #define PLUGY_UPDATE_USER_AGENT "PlugY4Kolbot/" PLUGY_VERSION
 
 // The int results of the calls below. Values are fixed: new ones are only ever appended.

@@ -177,7 +177,8 @@ test("the real CHANGELOG.md and changelog.d render a section holding every pendi
   assert.ok(start > out.indexOf("## [Unreleased]"));
   const section = out.slice(start, out.indexOf("\n## [", start + 1));
   for (const bullet of Object.values(groups).flat()) assert.ok(section.includes(bullet), bullet.slice(0, 60));
-  assert.match(out, /^\[99\.0\.0-rc\.1\]: https:\/\/github\.com\/theBGuy\/PlugY4Kolbot\/compare\/\S+\.\.\.v99\.0\.0-rc\.1$/m);
+  const [, base, previousTag] = readLF(join(repoRoot, "CHANGELOG.md")).match(/^\[Unreleased\]: (\S+)\/compare\/(\S+?)\.\.\.HEAD$/m);
+  assert.ok(out.includes(`\n[99.0.0-rc.1]: ${base}/compare/${previousTag}...v99.0.0-rc.1\n`));
 });
 
 // --- CLI ------------------------------------------------------------------------

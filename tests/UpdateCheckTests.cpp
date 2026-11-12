@@ -263,7 +263,7 @@ static void testSemver()
 #define SHA_2 "3c6ef3623c6f91993c702fd03c70ce073c716c3e3c720a753c72a8ac3c7346e3"
 #define SHA_115 "12ebaa8312ec48ba12ece6f112ed852812ee235f12eec19612ef5fcd12effe04"
 #define SHA_ABC "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
-#define PAGE_BASE "https://github.com/theBGuy/PlugY4Kolbot/releases/tag/"
+#define PAGE_BASE "https://github.com/xrip/PlugY4Kolbot/releases/tag/"
 
 static void testReleasesFixture()
 {
@@ -287,7 +287,7 @@ static void testReleasesFixture()
 	CHECK_EQ(release.nbAssets, 6);
 	CHECK(!release.assetsOmitted);
 	CHECK_STR(release.assets[0].name, "PlugY4Kolbot_v14.4.0.zip");
-	CHECK_STR(release.assets[0].url, "https://github.com/theBGuy/PlugY4Kolbot/releases/download/v14.4.0/PlugY4Kolbot_v14.4.0.zip");
+	CHECK_STR(release.assets[0].url, "https://github.com/xrip/PlugY4Kolbot/releases/download/v14.4.0/PlugY4Kolbot_v14.4.0.zip");
 	CHECK_STR(release.assets[0].sha256, SHA_1);
 	CHECK_STR(release.assets[1].sha256, SHA_2);	// published uppercase, stored lowercase
 	CHECK_STR(release.assets[3].name, "PlugY4Kolbot_v14.4.0_symbols.zip");

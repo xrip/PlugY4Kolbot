@@ -191,13 +191,13 @@ test("first release compares against the upstream v14.03 tag verbatim", () => {
 test("the real CHANGELOG.md assembles against its own compare base", () => {
   // A Windows checkout usually has CRLF here; the release tools read it as LF too.
   const text = readLF(join(repoRoot, "CHANGELOG.md"));
-  const prevTag = text.match(/^\[Unreleased\]:.*\/compare\/(\S+?)\.\.\.HEAD$/m)[1];
+  const [, base, prevTag] = text.match(/^\[Unreleased\]: (\S+)\/compare\/(\S+?)\.\.\.HEAD$/m);
   const out = assembleChangelog(text, "99.0.0", { Added: ["- A."], Changed: [], Fixed: [] }, {
     date: "2026-10-08",
   });
   assert.match(out, /^## \[Unreleased\]\n\n## \[99\.0\.0\] - 2026-10-08\n\n### Added\n\n- A\.\n/m);
   assert.ok(
-    out.includes(`\n[Unreleased]: https://github.com/theBGuy/PlugY4Kolbot/compare/v99.0.0...HEAD\n[99.0.0]: https://github.com/theBGuy/PlugY4Kolbot/compare/${prevTag}...v99.0.0\n`),
+    out.includes(`\n[Unreleased]: ${base}/compare/v99.0.0...HEAD\n[99.0.0]: ${base}/compare/${prevTag}...v99.0.0\n`),
   );
   assert.match(out, /^\[14\.3\.0\]: https:\/\/github\.com\/theBGuy\/PlugY4Kolbot\/tree\/v14\.03$/m);
 });

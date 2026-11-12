@@ -13,5 +13,5 @@ The upstream release this fork builds on: PlugY 14.03 by Yohann Nicolas, renumbe
 as 14.3.0. Its changes, and the history of every earlier version, are in
 `PlugY_The_Survival_Kit_-_Readme.txt`.
 
-[Unreleased]: https://github.com/theBGuy/PlugY4Kolbot/compare/v14.03...HEAD
+[Unreleased]: https://github.com/xrip/PlugY4Kolbot/compare/v14.03...HEAD
 [14.3.0]: https://github.com/theBGuy/PlugY4Kolbot/tree/v14.03

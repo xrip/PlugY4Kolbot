@@ -15,6 +15,7 @@ name: release
 # Passing --latest=false on a stable publish strips the Latest badge from it.
 
 on:
+  workflow_dispatch:
   push:
     # Semver tags only: the inherited upstream tags (v14.03 and older) never match.
     tags:
@@ -38,24 +39,24 @@ jobs:
       id-token: write # mint the OIDC token the provenance signature needs
       attestations: write # store the provenance attestations
     steps:
-      # The binaries check theBGuy/PlugY4Kolbot for updates and the notes link there, so a
-      # release built under any other repository name would ship dead links.
-      - name: Check the repository name
-        shell: pwsh
-        env:
-          REPO: ${{ github.repository }}
-        run: |
-          if ($env:REPO -ne 'theBGuy/PlugY4Kolbot') {
-            Write-Output "::error::Releases are built only in theBGuy/PlugY4Kolbot, not $env:REPO; rename the repository first."
-            exit 1
-          }
-
       - uses: actions/checkout@v7 # floating major; v7.0.1 was current on 2026-10-08
         with:
           # Full history, branches and tags: the master-ancestry check below needs the
           # history, and a pre-release's notes compare against the previous pre-release's tag.
           fetch-depth: 0
           persist-credentials: false
+
+      - name: Check the build and update repositories match
+        shell: pwsh
+        env:
+          REPO: ${{ github.repository }}
+        run: |
+          $header = Get-Content -Raw src/common/UpdateCheck.h
+          $updateRepo = [regex]::Match($header, '#define PLUGY_UPDATE_REPO "([^"]+)"').Groups[1].Value
+          if ($env:REPO -ne $updateRepo) {
+            Write-Output "::error::The build uses update repo '$updateRepo'; this run is '$env:REPO'."
+            exit 1
+          }
 
       - uses: actions/setup-node@v7 # floating major; v7.1.0 was current on 2026-10-08
         with:
@@ -170,7 +171,7 @@ jobs:
             Write-Output "::error::.github/release-notes-footer.md has no {{TAG}} placeholder for the source link."
             exit 1
           }
-          $footer = $footer.Replace('{{TAG}}', $env:TAG).Trim()
+          $footer = $footer.Replace('{{TAG}}', $env:TAG).Replace('{{REPOSITORY}}', $env:GITHUB_REPOSITORY).Trim()
           $text = ($body -join "`n").TrimEnd()
           $notes = $(if ($text) { "$text`n`n$footer`n" } else { "$footer`n" })
           $path = Join-Path $env:RUNNER_TEMP 'release-notes.md'

@@ -53,7 +53,7 @@ import {
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
 // The canonical repo; the release workflow names assets PlugY4Kolbot_v<V>*.
-const REPO_SLUG = "theBGuy/PlugY4Kolbot";
+const REPO_SLUG = "xrip/PlugY4Kolbot";
 const REPO_URL = `https://github.com/${REPO_SLUG}`;
 
 // The review gate's text diff: everything a release rewrites that git can show

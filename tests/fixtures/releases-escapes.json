@@ -1,7 +1,7 @@
 [
   {
-    "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/1",
-    "html_url": "https:\/\/github.com\/theBGuy\/PlugY4Kolbot\/releases\/tag\/v1.2.3",
+    "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/1",
+    "html_url": "https:\/\/github.com\/xrip\/PlugY4Kolbot\/releases\/tag\/v1.2.3",
     "id": 1,
     "author": {"login": "theBGuy", "id": 1000001, "site_admin": false},
     "tag_name": "\u00761.2.3",
@@ -14,7 +14,7 @@
     "published_at": "2026-10-01T12:00:00Z",
     "assets": [
       {
-        "url": "https://api.github.com/repos/theBGuy/PlugY4Kolbot/releases/assets/2",
+        "url": "https://api.github.com/repos/xrip/PlugY4Kolbot/releases/assets/2",
         "id": 2,
         "name": "\u0041sset \u00e9.zip",
         "label": null,
@@ -22,7 +22,7 @@
         "size": 3,
         "digest": "sha256:ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
         "download_count": 0,
-        "browser_download_url": "https://github.com/theBGuy/PlugY4Kolbot/releases/download/v1.2.3/Asset.zip"
+        "browser_download_url": "https://github.com/xrip/PlugY4Kolbot/releases/download/v1.2.3/Asset.zip"
       }
     ],
     "body": "Quote \" backslash \\ slash \/ b\b f\f n\n r\r t\t e-acute \u00e9 CJK \u4e2d emoji \ud83d\ude00 upper \u00C9 end",

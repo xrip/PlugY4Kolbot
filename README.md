@@ -1,7 +1,7 @@
 # PlugY4Kolbot
-theBGuy's fork of "PlugY, The Survival Kit" by Yohann Nicolas, the plug-in for Diablo II Lord of Destruction, hardened for running many kolbot/D2Bot games at once. This fork is developed and tested on Diablo II 1.14d; upstream PlugY also supports 1.09b - 1.13d, which this fork doesn't test.
+This is xrip's fork of [theBGuy/PlugY4Kolbot](https://github.com/theBGuy/PlugY4Kolbot), built on "PlugY, The Survival Kit" by Yohann Nicolas. It is made and tested for Diablo II 1.14d and parallel D2Bot / kolbot games.
 
-> The upstream repository is [ChaosMarc/PlugY](https://github.com/ChaosMarc/PlugY). Ready-to-use builds of this fork, with checksums and build attestations, are on the [Releases page](https://github.com/theBGuy/PlugY4Kolbot/releases). File names are unchanged (`PlugY.dll`, `PlugY.exe`, `PlugY.ini` and the `PlugY\` folder), so it is a drop-in upgrade for an existing PlugY install.
+> The original upstream repository is [ChaosMarc/PlugY](https://github.com/ChaosMarc/PlugY). Builds of this fork are on the [Releases page](https://github.com/xrip/PlugY4Kolbot/releases). File names are unchanged (`PlugY.dll`, `PlugY.exe`, `PlugY.ini` and the `PlugY\` folder), so it is a drop-in upgrade for an existing PlugY install.
 
 Extends Diablo II - Lord of Destruction by a number of useful features
 

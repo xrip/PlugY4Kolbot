@@ -11,9 +11,9 @@ PlugY4Kolbot keeps PlugY's file names, so it drops into an existing PlugY instal
 ### Verifying your download
 
 - Compare each file's hash with `SHA256SUMS.txt` (in PowerShell: `Get-FileHash <file>`).
-- Confirm a file was built by this repository's release workflow: `gh attestation verify <file> -R theBGuy/PlugY4Kolbot`.
+- Confirm a file was built by this repository's release workflow: `gh attestation verify <file> -R {{REPOSITORY}}`.
 - The programs are not code-signed, so Windows SmartScreen or an antivirus may warn about them; the checks above confirm a file is the one this repository released.
 
 ### License and source
 
-PlugY4Kolbot is free software under the GNU General Public License v3, provided without any warranty. The complete source for these binaries is the [{{TAG}} source tree](https://github.com/theBGuy/PlugY4Kolbot/tree/{{TAG}}). It is a fork of PlugY, The Survival Kit, created by Yohann Nicolas, and builds on his work. This project is not affiliated with or endorsed by Blizzard Entertainment.
+PlugY4Kolbot is free software under the GNU General Public License v3, provided without any warranty. The complete source for these binaries is the [{{TAG}} source tree](https://github.com/{{REPOSITORY}}/tree/{{TAG}}). It is a fork of PlugY, The Survival Kit, created by Yohann Nicolas, and builds on his work. This project is not affiliated with or endorsed by Blizzard Entertainment.
